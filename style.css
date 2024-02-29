@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.road1 {
+  position: absolute;
+  top: 16%;
+  transform: rotate(150deg);
+  left: 20%;
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  background-color: black;
+}
+
+.road2 {
+  position: absolute;
+  top: 50%;
+  transform: rotate(150deg);
+  left: 60%;
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  background-color: black;
+}
+
+.road3 {
+  position: absolute;
+  top: 60%;
+  transform: rotate(45deg);
+  left: 15%;
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  background-color: black;
+}
+
+.green {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.yellow {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.red {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.notActive {
+  opacity: 0.3;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: rotate(-15deg);
+  text-align: center;
+  font-size: 28px;
+  opacity: 0.7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
